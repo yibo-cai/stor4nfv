@@ -12,12 +12,12 @@ opensds_release: v0.1.4 # The version should be at least v0.1.4.
 nbp_release: v0.1.0 # The version should be at least v0.1.0.
 
 # These fields are not suggested to be modified
-opensds_download_url: https://github.com/opensds/opensds/releases/download/{{ opensds_release }}/opensds-{{ opensds_release }}-linux-amd64.tar.gz
-opensds_tarball_url: /opt/opensds-{{ opensds_release }}-linux-amd64.tar.gz
-opensds_dir: /opt/opensds-{{ opensds_release }}-linux-amd64
-nbp_download_url: https://github.com/opensds/nbp/releases/download/{{ nbp_release }}/opensds-k8s-{{ nbp_release }}-linux-amd64.tar.gz
-nbp_tarball_url: /opt/opensds-k8s-{{ nbp_release }}-linux-amd64.tar.gz
-nbp_dir: /opt/opensds-k8s-{{ nbp_release }}-linux-amd64
+opensds_download_url: https://people.linaro.org/~yibo.cai/compass/opensds-{{ opensds_release }}-linux-arm64.tar.gz
+opensds_tarball_url: /opt/opensds-{{ opensds_release }}-linux-arm64.tar.gz
+opensds_dir: /opt/opensds-{{ opensds_release }}-linux-arm64
+nbp_download_url: https://people.linaro.org/~yibo.cai/compass/opensds-k8s-{{ nbp_release }}-linux-arm64.tar.gz
+nbp_tarball_url: /opt/opensds-k8s-{{ nbp_release }}-linux-arm64.tar.gz
+nbp_dir: /opt/opensds-k8s-{{ nbp_release }}-linux-arm64
 
 opensds_config_dir: /etc/opensds
 opensds_log_dir: /var/log/opensds
